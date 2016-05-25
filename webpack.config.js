@@ -2,7 +2,7 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: [
-    'script!jquery/dist/jquery.min.js', // script pour les fichiers non optimisés webpack
+    'script!jquery/dist/jquery.min.js',
     'script!foundation-sites/dist/foundation.min.js',
     './app/app.jsx'
   ],
@@ -29,7 +29,8 @@ module.exports = {
       Examples: 'app/components/Examples.jsx',
       WeatherMessage: 'app/components/WeatherMessage.jsx',
       WeatherForm: 'app/components/WeatherForm.jsx',
-      openWeatherMap : 'app/api/openWeatherMap.jsx'
+      openWeatherMap : 'app/api/openWeatherMap.jsx',
+      ErrorModal : 'app/components/ErrorModal.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
